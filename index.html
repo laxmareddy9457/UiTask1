@@ -4,61 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hotspot login page">
+    <meta name="author" content="Arcadis">
     <title>Login page</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <main class="main">
-        <form>
+        <form class="user-form-con">
             <img src="https://hotspotparking.com/img/hotspot/htsp_full_logo.png" alt="hotspot-logo" class="logo" />
-            <br />
             <h1 class="login-head">Login into your Account</h1>
-            <br />
-            <div>
-                <label class="login-form-label" for="email">Email Address</label>
-                <br/>
-                <input type="email" class="login-input-class1" id="email" name="email"
-                    placeholder="Enter Email Address" required />
-                <label class="login-form-label" for="Password">Password</label>
-                <br/>
-                <input required type="password" class="login-input-class2" id="Password" name="Password"
-                    placeholder="Enter Password" />
+            <div class="user-form">
+                <label>Email Address
+                    <input type="email" id="usermail"placeholder="Enter Email Address" required />
+                </label>
+                <label>Password
+                    <input required type="password" id="userpassword" placeholder="Enter Password" />
+                </label>
             </div>
-            <div class="remeber-forgot-password-cont">
+            <div class="rem-fp-con">
                 <div class="remember-me-container">
-                    <input type="checkbox" name="checkbox" id="checkbox" />
-                    <label for="checkbox" class="remeber-me-checkbox">Remember me</label>
+                    <input type="checkbox" name="remember-check" id="remembercheck" />
+                    <label for="checkbox">Remember me</label>
                 </div>
                 <p class="forgot-password"><a href="#">forgot password?</a></p>
             </div>
-
-            <br/>
-            <button class="btn-login" >Login</button>
-
-
-            <div class="horizontalline-container">
-                <hr class="hr1"/> <span> or </span> <hr class="hr1"/>
+            <button class="sign-in-btn btn-login">Login</button>
+            <div class="or-con">
+                <span> or </span>
             </div>
-             
-
-            <button class="sign-in-social-btn google-btn">
-                <img class="g-img" src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw" alt="Google" width="150">
+            <button class="sign-in-btn google-btn">
+                <img class="social-logo"
+                    src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw"
+                    alt="Google" width="150">
                 Sign in with Google
             </button>
-            <button class="sign-in-social-btn Apple-btn">
-                <img src="https://hotspotparking.com/img/brands/apple-logo.png" alt="apple" class="apple-logo"/>
+            <button class="sign-in-btn apple-btn">
+                <img src="https://hotspotparking.com/img/brands/apple-logo.png" alt="apple" class="social-logo" />
                 Sign in with Apple
             </button>
-            <button class="sign-in-social-btn Microsoft-btn">
-                <img src="https://hotspotparking.com/img/brands/ms-logo.png" alt="ms logo" class="ms-logo"/>
+            <button class="sign-in-btn microsoft-btn">
+                <img src="https://hotspotparking.com/img/brands/ms-logo.png" alt="ms logo" class="social-logo" />
                 Sign in with Microsoft
             </button>
-
-            <p class="new-user-para">New User?<a href= "#" > Click Here</a></p>
-            <p class="parking-new">Want to park your customers and employees?<a href= "#" > Click Here</a></p>
+            <p class="parking-new">New User?<a href="#"> Click Here</a></p>
+            <p class="parking-new">Want to park your customers and employees?<a href="#"> Click Here</a></p>
         </form>
-
     </main>
 </body>
 

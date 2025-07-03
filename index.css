@@ -9,14 +9,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
-    
-
 }
-form{
-    
-    width: 24vw;
-    padding: 35px;
+.user-form-con{
+    width: 24%;
+    padding: 34px;
     border-radius: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-family: Roboto;
@@ -26,128 +22,92 @@ form{
 }
 .login-head{
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.login-form-label{
+.user-form label{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
-.login-input-class1{
+.user-form label input{
     width: 100%;
-    height: 35px;
+    height: 34px;
     border: solid 0.5px rgb(181, 179, 179);
     outline: none;
-    border-radius: 5px;
+    border-radius: 4px;
     padding-left: 10px;
     margin-top: 3px;
     margin-bottom: 18px;
-    
-}
-.login-input-class2{
-    width: 100%;
-    height: 35px;
-    border: solid 0.5px rgb(181, 179, 179);
-    outline: none;
-    border-radius: 5px;
-    padding-left: 10px;
-    margin-top: 3px;
-    margin-bottom: 3px;
 }
 .remember-me-container{
     display: flex;
     align-items: center;
     gap: 2px;
 }
-.remeber-me-checkbox{
-    font-size: 15px;
+.remember-me-container label{
+    font-size: 14px;
 }
 .forgot-password a{
-    font-size: 15px;
+    font-size: 14px;
+}
+a{
     text-decoration: none;
 }
-.remeber-forgot-password-cont{
+.rem-fp-con{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.horizontalline-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
-    margin-bottom: 20px;
-   
-    
-}
-.hr1{
- width: 100%;
-}
-.sign-in-social-btn{
+.sign-in-btn{
     width: 100%;
     height: 30px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
     cursor: pointer;
-}
-.google-btn{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    background-color: white;
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.g-img{
-    height: 50%;
-    
-    width: fit-content;
+.google-btn{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.Apple-btn{
+.apple-btn{
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
-.apple-logo{
+.microsoft-btn{
+    margin-bottom: 16px;
+    background-color: rgb(190, 188, 188);
+}
+.social-logo{
     height: 50%;
     width: fit-content;
-}
-.ms-logo{
-    height: 50%;
-    width: fit-content;
-}
-.Microsoft-btn{
-    background-color: grey;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.new-user-para{
-    text-align: center;
-    font-size: 14px;
-    padding-top: 15px;
 }
 .parking-new{
     text-align: center;
     font-size: 14px;
-    margin-top: 7px;
+    margin-top: 6px;
 }
 .btn-login{
-    width:100%;
     color: rgb(243, 242, 242);
-    height: 31px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
     background-color: #ff5d5d;
     margin-bottom: 10px;
+}
+.or-con{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 16px;
+}
+.or-con::before , .or-con::after{
+    border-bottom: solid 1px black;
+    content: "";
+    flex: 1;   
 }
