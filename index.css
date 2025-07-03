@@ -44,8 +44,16 @@
 .remember-me-container{
     display: flex;
     align-items: center;
-    gap: 2px;
+    justify-content: center;
+    gap: 5px;
+    height: 28px;
+
 }
+#remembercheck{
+    height: 15px;
+    width: 15px;
+}
+
 .remember-me-container label{
     font-size: 12px;
 }
